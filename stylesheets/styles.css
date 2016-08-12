@@ -21,6 +21,7 @@ header {
   background-image: url(../logo.png);
   background-position: left top;
   background-repeat: no-repeat;
+  background-size: contain;
   height: 3.5em;
 }
 h1 {
@@ -41,7 +42,7 @@ form {
   padding: 1em;
 }
 form input {
-  
+  display: block;
 }
 footer {
   padding: 1em;
