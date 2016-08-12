@@ -21,7 +21,7 @@ header {
   background-size: contain;
   box-shadow: 0em 0em 0.5em #000;
   float: left;
-  height: auto;
+  height: 5em;
   width: 30vw;
 }
 h1 {
