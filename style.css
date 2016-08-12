@@ -1,11 +1,11 @@
 @media screen and (orientation: portrait) {
-  body {
-    text-align: center;
-  }
   header {
     background-position: center center !important;
     height: 20vh !important;
     width: 100% !important;
+  }
+  h2 {
+    text-align: center;
   }
   main {
     height: 75vh;
