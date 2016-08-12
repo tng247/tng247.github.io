@@ -36,7 +36,6 @@ body {
     -webkit-user-select: none;
 }
 header {
-  background-color: purple;
   background-image: url(../logo.png);
   background-position: right center;
   background-repeat: no-repeat;
@@ -50,17 +49,15 @@ a {
 h1 {
   display: none;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, footer {
   font-weight: normal;
   text-shadow: 0em 0.1em 0.2em #000;
 }
 main {
-  background-color: green;
   flex: 1;
   padding: 1em;
 }
 footer {
-  background-color: pink;
   font-size: 0.8em;
   padding: 1em;
   text-align: right;
