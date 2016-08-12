@@ -1,4 +1,7 @@
 @media screen and (orientation: portrait) {
+  body {
+    text-align: center;
+  }
   header {
     background-position: center center !important;
     height: 20vh !important;
