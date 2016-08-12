@@ -13,6 +13,9 @@ body {
 header {
   height: 3.5em;
 }
+h1 {
+  display: none;
+}
 article {
   padding: 1em;
 }
