@@ -1,5 +1,5 @@
 $(document).ready(function () {
   $("#login").submit(function() {
-    $("#notice").removeClass("message").addClass("message");
+    $("#message").removeClass("ping").addClass("ping");
   });
 }
