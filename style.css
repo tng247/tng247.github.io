@@ -2,10 +2,10 @@
   header {
     background-position: center center !important;
     flex: 1 !important;
-    height: 20% !important;
+    height: 20vh !important;
   }
   main {
-    height: 75%;
+    height: 75vh;
   }
 }
 @keyframes fade {
