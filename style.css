@@ -79,8 +79,6 @@ h1, h2, h3, h4, h5, h6, p, footer {
   text-shadow: 0em 0.1em 0.2em #000;
 }
 main {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 0.5em;
   flex: 1;
   padding: 1em;
 }
@@ -110,6 +108,8 @@ footer {
   width: 100%;
 }
 #login {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
   padding: 1em;
 }
 #login input {
