@@ -41,7 +41,7 @@ header {
   background-image: url(../logo.png);
   background-position: right center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 30vw;
 }
 a {
@@ -62,6 +62,7 @@ main {
 footer {
   background-color: pink;
   font-size: 0.8em;
+  height: 3em;
   padding: 1em;
   text-align: right;
   text-transform: uppercase;
