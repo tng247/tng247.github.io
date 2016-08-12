@@ -1,3 +1,9 @@
+@media screen and (max-width: 511px) {
+  header {
+    background-position: center center !important;
+    flex: 1 !important;
+  }
+}
 @keyframes fade {
   10% {
     opacity: 1;
@@ -83,7 +89,7 @@ footer {
   padding: 1em;
   text-align: right;
   text-transform: uppercase;
-  width: 100vw;
+  flex: 1;
 }
 .failure {
   animation-duration: 3s;
