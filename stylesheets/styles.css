@@ -29,6 +29,7 @@ body {
     -webkit-flex-wrap: wrap;
   font-family: sans-serif;
   font-size: 1em;
+  height: 100vh;
   margin: 0em;
   user-select: none;
     -moz-user-select: none;
@@ -40,7 +41,7 @@ header {
   background-image: url(../logo.png);
   background-position: right center;
   background-repeat: no-repeat;
-  height: 90vh;
+  background-size: contain;
   width: 30vw;
 }
 a {
