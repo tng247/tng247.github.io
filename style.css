@@ -1,6 +1,7 @@
 @media screen and (max-width: 511px) {
   header {
     background-position: center center !important;
+    background-size: contain;
     flex: 1 !important;
     height: 20vh !important;
   }
