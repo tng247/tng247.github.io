@@ -31,7 +31,7 @@ p {
   margin-left: 9em;
 }
 article {
-  height: 85vh;
+  height: calc(85vh-7em);
   padding: 1em;
 }
 button {
@@ -49,6 +49,7 @@ form input {
   display: block;
 }
 footer {
+  height: 3.5em;
   padding: 1em;
   text-align: right;
 }
