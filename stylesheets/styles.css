@@ -16,11 +16,12 @@ body {
 header {
   background-color: purple;
   background-image: url(../logo.png);
-  background-position: left top;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   box-shadow: 0em 0em 0.5em #000;
   float: left;
+  height: auto;
   width: 30vw;
 }
 h1 {
@@ -31,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 article {
   background-color: green;
-  float: left;
+  float: right;
   padding: 1em;
   width: 70vw;
 }
