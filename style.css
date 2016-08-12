@@ -2,6 +2,7 @@
   header {
     background-position: center center !important;
     flex: 1 !important;
+    height: auto !important;
   }
 }
 @keyframes fade {
