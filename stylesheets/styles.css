@@ -21,6 +21,10 @@ body {
   background-color: #333;
   color: #fff;
   cursor: default;
+  display: flex;
+    display: -webkit-flex;
+  flex-direction: row;
+    -webkit-flex-direction: row;
   font-family: sans-serif;
   font-size: 1em;
   margin: 0em;
@@ -34,9 +38,6 @@ header {
   background-image: url(../logo.png);
   background-position: right center;
   background-repeat: no-repeat;
-  box-shadow: 0em 0em 0.5em #000;
-  float: left;
-  height: 90vh;
   width: 30vw;
 }
 a {
@@ -51,19 +52,16 @@ h1, h2, h3, h4, h5, h6, p {
 }
 article {
   background-color: green;
-  float: right;
-  height: 90vh;
   padding: 1em;
   width: 70vw;
 }
 footer {
   background-color: pink;
-  clear: both;
   font-size: 0.8em;
-  height: 10vh;
   padding: 1em;
   text-align: right;
   text-transform: uppercase;
+  width: 100vw;
 }
 .button {
   background-color: teal;
