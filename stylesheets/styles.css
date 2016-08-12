@@ -43,9 +43,8 @@ header {
   background-image: url(../logo.png);
   background-position: right center;
   background-repeat: no-repeat;
-  background-size: contain;
   height: 95vh;
-  width: 30vw;
+  width: 40vw;
 }
 a {
   text-decoration: none;
