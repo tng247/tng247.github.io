@@ -80,10 +80,10 @@ article {
   transition-property: all;
     -webkit-transition-property: all;
 }
-div {
+.login {
   padding: 1em;
 }
-div input {
+.login input {
   display: block;
   padding: 0.5em;
 }
