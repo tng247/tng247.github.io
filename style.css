@@ -1,12 +1,16 @@
-@media screen and (max-width: 511px) {
+@media screen and (orientation: portrait) {
   header {
     background-position: center center !important;
-    background-size: contain;
     flex: 1 !important;
     height: 20vh !important;
   }
   main {
     height: 75vh;
+  }
+}
+@media screen and (max-width: 959px) {
+  header {
+    background-size: contain;
   }
 }
 @keyframes fade {
