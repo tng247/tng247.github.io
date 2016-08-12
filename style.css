@@ -1,6 +1,6 @@
 @media screen and (orientation: portrait) {
   body {
-    text-align: center;
+    text-align: center !important;
   }
   header {
     background-position: center center !important;
