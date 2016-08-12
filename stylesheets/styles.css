@@ -46,22 +46,21 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: normal;
   text-shadow: 0em 0.1em 0.2em #000;
 }
-.submit {
-  color: #ff3;
-  opacity: 0;
-}
-.submit:target {
-  animation-duration: 3s;
-    -webkit-animation-duration: 3s;
-  animation-name: fade;
-    -webkit-animation-name: fade;
-}
 article {
   background-color: green;
   float: right;
   height: 90vh;
   padding: 1em;
   width: 70vw;
+}
+footer {
+  background-color: pink;
+  clear: both;
+  font-size: 0.8em;
+  height: 10vh;
+  padding: 1em;
+  text-align: right;
+  text-transform: uppercase;
 }
 .button {
   background-color: teal;
@@ -80,19 +79,20 @@ article {
   transition-property: all;
     -webkit-transition-property: all;
 }
-.login {
+#login {
   padding: 1em;
 }
-.login input {
+#login input {
   display: block;
   padding: 0.5em;
 }
-footer {
-  background-color: pink;
-  clear: both;
-  font-size: 0.8em;
-  height: 10vh;
-  padding: 1em;
-  text-align: right;
-  text-transform: uppercase;
+#submit {
+  color: #ff3;
+  opacity: 0;
+}
+#submit:target {
+  animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+  animation-name: fade;
+    -webkit-animation-name: fade;
 }
