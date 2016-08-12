@@ -43,14 +43,14 @@ button {
   cursor: pointer;
   margin-top: 0.5em;
   padding: 1em;
-  transition-duration: 250ms;
-    -webkit-transition-duration: 250ms;
-  transition-property: all;
-    -webkit-transition-property: all;
 }
 button:hover {
   background-color: lightseagreen;
   box-shadow: 0em 0em 1em #000;
+  transition-duration: 250ms;
+    -webkit-transition-duration: 250ms;
+  transition-property: all;
+    -webkit-transition-property: all;
 }
 form {
   padding: 1em;
