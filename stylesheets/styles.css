@@ -25,6 +25,7 @@ header {
   background-size: contain;
   box-shadow: 0em 0em 0.5em #000;
   float: left;
+  width: 30vw;
 }
 h1 {
   display: none;
@@ -60,6 +61,7 @@ form input {
 footer {
   background-color: pink;
   clear: both;
+  font-size: 0.8em;
   padding: 1em;
   text-align: right;
   text-transform: uppercase;
