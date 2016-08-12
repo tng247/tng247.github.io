@@ -89,7 +89,7 @@ footer {
   padding: 1em;
   text-align: right;
   text-transform: uppercase;
-  flex: 1;
+  width: 100%;
 }
 .failure {
   animation-duration: 3s;
