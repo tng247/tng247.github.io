@@ -1,5 +1,5 @@
 @media screen and (orientation: portrait) {
-  body {
+  body, footer {
     text-align: center !important;
   }
   header {
