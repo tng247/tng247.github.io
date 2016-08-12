@@ -73,6 +73,7 @@ footer {
   color: #fff;
   cursor: pointer;
   display: block;
+  margin: 0em 1em;
   padding: 1em;
 }
 .button:hover {
