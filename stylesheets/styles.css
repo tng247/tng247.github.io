@@ -39,6 +39,9 @@ header {
   height: 90vh;
   width: 30vw;
 }
+a {
+  text-decoration: none;
+}
 h1 {
   display: none;
 }
