@@ -107,12 +107,6 @@ footer {
   text-transform: uppercase;
   width: 100%;
 }
-.ping {
-  animation-duration: 3s;
-    -webkit-animation-duration: 3s;
-  animation-name: fade;
-    -webkit-animation-name: fade;
-}
 #login {
   padding: 1em;
 }
@@ -123,4 +117,10 @@ footer {
 #message {
   color: #ff3;
   opacity: 0;
+}
+#message:target {
+  animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+  animation-name: fade;
+    -webkit-animation-name: fade;
 }
