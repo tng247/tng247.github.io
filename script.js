@@ -1,6 +1,5 @@
 $(document).ready(function () {
-  $("#login").submit(function(event) {
-    event.preventDefault();
+  $("#login").submit(function() {
     alert("Invalid account, please try again.");
   });
 }
