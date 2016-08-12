@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("#submit").click(function() {
-    location.reload(true);
+  $("button").click(function() {
+    $(".notice").addClass("show");
   });
 }
