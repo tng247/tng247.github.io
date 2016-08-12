@@ -20,6 +20,7 @@ body {
     -webkit-user-select: none;
 }
 header {
+  background-color: purple;
   background-image: url(../logo.png);
   background-position: left top;
   background-repeat: no-repeat;
@@ -35,6 +36,7 @@ p {
   margin-left: 9em;
 }
 article {
+  background-color: pink;
   display: flex;
   padding: 1em;
   width: 100%;
@@ -58,6 +60,7 @@ form input {
   display: block;
 }
 footer {
+  background-color: pink;
   display: flex;
   padding: 1em;
   text-align: right;
