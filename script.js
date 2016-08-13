@@ -5,7 +5,8 @@ $(document).ready(function () {
   $("#login").submit(function (e) {
     e.preventDefault();
 //    alert(failure);
-    $("#message").html(failure)
-    location.assign("/#message");
+//    $(".message").html(failure).addClass("peek");
+    location.assign("/#submit");
+    location.reload(true);
   });
 });
