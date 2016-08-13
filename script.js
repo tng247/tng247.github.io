@@ -6,6 +6,6 @@ $(document).ready(function () {
     e.preventDefault();
 //    alert(failure);
     $("#message").html(failure)
-    location.href = "/#message";
+    location.assign("/#message");
   });
 });
