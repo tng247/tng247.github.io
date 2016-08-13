@@ -4,7 +4,8 @@ $(document).ready(function () {
 
 //  $(".message").html("&nbsp;").removeClass("pulse");
 
-  $("#login").submit(function () {
+  $("#login").submit(function (e) {
+    e.preventDefault();
 //    alert(FAILURE);
     $(".message").html(FAILURE).addClass("pulse");
   });
