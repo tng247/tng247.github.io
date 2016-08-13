@@ -7,6 +7,8 @@ $(document).ready(function () {
   $("#login").submit(function (e) {
     e.preventDefault();
 //    alert(FAILURE);
-    $(".message").html(FAILURE).addClass("pulse");
+    $("#submit").click(function () {
+      $(".message").html(FAILURE).addClass("pulse");
+    });
   });
 });
