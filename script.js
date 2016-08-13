@@ -8,6 +8,6 @@ $(document).ready(function () {
     e.preventDefault();
 //    alert(failure);
     location.assign("/#signin");
-    location.reload();
+    location.reload(true);
   });
 });
