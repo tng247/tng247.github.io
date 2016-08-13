@@ -39,6 +39,9 @@
 * {
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
 body {
   align-items: center;
     -webkit-align-items: center;
@@ -60,27 +63,6 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
-}
-header {
-  background-image: url(/logo.png);
-  background-position: right center;
-  background-repeat: no-repeat;
-  height: 95vh;
-  width: 40vw;
-}
-a {
-  text-decoration: none;
-}
-h1 {
-  display: none;
-}
-h1, h2, h3, h4, h5, h6, p, footer {
-  font-weight: normal;
-  text-shadow: 0em 0.1em 0.2em #000;
-}
-main {
-  flex: 1;
-  padding: 1em;
 }
 button {
   background-color: teal;
@@ -108,22 +90,38 @@ footer {
   text-transform: uppercase;
   width: 100%;
 }
+header {
+  background-image: url(/logo.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 95vh;
+  width: 40vw;
+}
+h1 {
+  display: none;
+}
+h1, h2, h3, h4, h5, h6, p, footer {
+  font-weight: normal;
+  text-shadow: 0em 0.1em 0.2em #000;
+}
+main {
+  flex: 1;
+  padding: 1em;
+}
+.message {
+  animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+  animation-name: fade;
+    -webkit-animation-name: fade;
+  color: #ff3;
+  opacity: 0;
+}
 #login {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 0.5em;
   padding: 1em;
 }
-#login input {
+#password, #username {
   display: block;
   margin-bottom: 0.5em;
-}
-#message {
-  color: #ff3;
-  opacity: 0;
-}
-#message:target {
-  animation-duration: 3s;
-    -webkit-animation-duration: 3s;
-  animation-name: fade;
-    -webkit-animation-name: fade;
 }
