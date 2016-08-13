@@ -93,7 +93,7 @@ footer {
   width: 100%;
 }
 form {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #222;
   box-shadow: 0em 0em 0.5em #000;
 }
 header {
