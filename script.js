@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var failure = "Invalid details, please try again.";
+  var failure = "Invalid account, please try again.";
   var success = "Welcome back, connecting you now...";
 
   $("#signin").html(failure);
@@ -8,6 +8,6 @@ $(document).ready(function () {
     e.preventDefault();
 //    alert(failure);
     location.assign("/#signin");
-    location.reload(true);
+//    location.reload(true);
   });
 });
