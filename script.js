@@ -1,8 +1,11 @@
 $(document).ready(function () {
-  var MESSAGE = "Invalid account details, please try again.";
+  var FAILURE = "Invalid details, please try again.";
+  var SUCCESS = "Welcome back, connecting you now...";
+
+  $(".message").html("&nbsp;").removeClass("pulse");
 
   $("#login").submit(function () {
-//    alert("Invalid account details, please try again.");
-    $(".message").html(MESSAGE);
+//    alert(FAILURE);
+    $(".message").html(FAILURE).addClass("pulse");
   });
 });
