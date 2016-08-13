@@ -108,20 +108,20 @@ main {
   flex: 1;
   padding: 1em;
 }
-.message {
-  color: #ff3;
-  opacity: 0;
-}
-.pulse {
-  animation-duration: 3s;
-    -webkit-animation-duration: 3s;
-  animation-name: fade;
-    -webkit-animation-name: fade;
-}
 #login {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 0.5em;
   padding: 1em;
+}
+#message {
+  color: #ff3;
+  opacity: 0;
+}
+#message:target {
+  animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+  animation-name: fade;
+    -webkit-animation-name: fade;
 }
 #password, #username {
   display: block;
