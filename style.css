@@ -109,12 +109,14 @@ main {
   padding: 1em;
 }
 .message {
+  color: #ff3;
+  opacity: 0;
+}
+.pulse {
   animation-duration: 3s;
     -webkit-animation-duration: 3s;
   animation-name: fade;
     -webkit-animation-name: fade;
-  color: #ff3;
-  opacity: 0;
 }
 #login {
   background-color: rgba(0, 0, 0, 0.1);
