@@ -113,11 +113,11 @@ main {
   border-radius: 0.5em;
   padding: 1em;
 }
-#submit {
+#signin {
   color: #ff3;
   opacity: 0;
 }
-#submit:target {
+#signin:target {
   animation-duration: 3s;
     -webkit-animation-duration: 3s;
   animation-name: fade;
