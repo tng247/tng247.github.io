@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 //    alert(failure);
 
-    location.replace("/#signin");
+    location.replace("http://tng247.com/#signin");
     location.reload(true);
   });
 });
