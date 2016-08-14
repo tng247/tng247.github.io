@@ -10,6 +10,6 @@ $(document).ready(function () {
 //    alert(failure);
 
     location.href = "/#signin";
-//    location.reload(true);
+    location.reload(true);
   });
 });
