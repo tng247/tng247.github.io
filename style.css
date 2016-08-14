@@ -131,6 +131,7 @@ main {
 .cc_btn {
   background-color: teal !important;
   color: #fff !important;
+  font-size: 0.8em !important;
   font-weight: bold;
   padding: 1em !important;
   text-transform: uppercase;
@@ -142,10 +143,10 @@ main {
 .cc_btn, .cc_container {
   border-radius: 0em !important;
   box-shadow: 0em 0em 0.5em #000;
-  font-size: 0.8em !important;
 }
 .cc_container {
   background-color: #ddd !important;
+  font-size: 1em !important;
 }
 .cc_message {
   color: #000;
