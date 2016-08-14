@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var failure = "Invalid account, please try again.";
   var success = "Welcome back, connecting you now...";
-  var url = "http://www.tng247.com";
+  var url = "http://www.tng247.com/#signin";
 
   $("#signin").html(failure);
 
@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 //    alert(failure);
 
-    location.replace(url + "/#signin");
+    location.replace(url);
     location.reload(true);
   });
 });
