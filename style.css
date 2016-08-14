@@ -131,6 +131,10 @@ main {
 .cc_btn {
   background-color: teal !important;
   color: #fff !important;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 1em;
+  text-transform: uppercase;
 }
 .cc_btn:hover {
   background-color: lightseagreen !important;
