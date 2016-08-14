@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 //    alert(failure);
 
-    location.hash("signin");
+    location.href = "/#signin";
 //    location.reload(true);
   });
 });
