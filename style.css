@@ -127,12 +127,15 @@ main {
   flex: 1;
   height: 100vh;
 }
-.cc_banner {
-  background-color: #999;
-}
 .cc_btn {
-  background-color: teal;
-  color: #fff;
+  background-color: teal !important;
+  color: #fff !important;
+}
+.cc_btn:hover {
+  background-color: lightseagreen !important;
+}
+.cc_container {
+  background-color: #999 !important;
 }
 .cc_message {
   color: #000;
