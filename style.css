@@ -130,7 +130,6 @@ main {
 }
 .cc_btn {
   background-color: teal !important;
-  border-radius: 0em !important;
   color: #fff !important;
 }
 .cc_btn:hover {
@@ -138,6 +137,7 @@ main {
   box-shadow: 0em 0em 1em #000;
 }
 .cc_btn, .cc_container {
+  border-radius: 0em !important;
   box-shadow: 0em 0em 0.5em #000;
 }
 .cc_container {
