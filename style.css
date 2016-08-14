@@ -127,6 +127,16 @@ main {
   flex: 1;
   height: 100vh;
 }
+.cc_banner {
+  background-color: #999;
+}
+.cc_btn {
+  background-color: teal;
+  color: #fff;
+}
+.cc_message {
+  color: #000;
+}
 #signin {
   color: #ff3;
   opacity: 0;
