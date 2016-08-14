@@ -130,14 +130,18 @@ main {
 }
 .cc_btn {
   background-color: teal !important;
+  border-radius: 0em !important;
   color: #fff !important;
 }
 .cc_btn:hover {
   background-color: lightseagreen !important;
+  box-shadow: 0em 0em 1em #000;
+}
+.cc_btn, .cc_container {
+  box-shadow: 0em 0em 0.5em #000;
 }
 .cc_container {
   background-color: #ddd !important;
-  box-shadow: 0em 0em 0.5em #000;
 }
 .cc_message {
   color: #000;
