@@ -3,4 +3,5 @@ Disallow: /404.html
 Disallow: /*.css
 Disallow: /*.js
 Disallow: /*.png
+Disallow: /*.svg
 Disallow: /*?
