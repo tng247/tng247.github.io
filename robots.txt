@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /CNAME
 Disallow: /404.html
 Disallow: /*.css
 Disallow: /*.js
