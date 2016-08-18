@@ -1,4 +1,5 @@
 User-agent: *
+
 Disallow: /CNAME
 Disallow: /404.html
 Disallow: /*.css
@@ -6,3 +7,5 @@ Disallow: /*.js
 Disallow: /*.png
 Disallow: /*.svg
 Disallow: /*?
+
+Sitemap: http://tng247.com/sitemap.xml
